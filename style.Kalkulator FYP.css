@@ -1,0 +1,115 @@
+body{
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid #4A452A;
+    border-radius: 11px;
+    padding: 2px;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div{
+ /* border: solid 1px red; */
+}
+
+
+.Kalkulator{
+background: linear-gradient(#ccf, #88f);
+/* font-size: 11px;
+padding: 2px;
+border-radius: 8px;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+text-align: center;
+display: flex;
+justify-content: center; */
+}
+
+.wrapper{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.wrapper div{
+    width: 100%;
+    /* background: darkblue; */
+    padding: 5px 10px;
+}
+
+#hasil {
+    font-size: 22px; 
+}
+
+#btn-hitung {
+    background-color: #00B050;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px;
+    text-align: center;
+}
+
+#operasi.temporer{
+    font-size: 9px;
+}
+
+.bg-abu{background: #d8d8d8;}
+.bg-red{background: #C00000;}
+.bg-dark-brown{background: #4A452A;}
+.bg-brown{background: #974807;}
+.bg-dark-blue{background: #376091;}
+.bg-purple{background: #7030A0;}
+.bg-green{background: #00B050;}
+
+#judul{
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4A452A;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.tombol{
+    padding: 15px;
+    font-size: 18px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gray;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+    text-align: center;
+
+}
+
+.tombol-aktif{
+    cursor: pointer;
+    transition: .2s;
+}
+
+.tombol-aktif:hover{
+    background: linear-gradient(#fcf,#f0f);
+    transform: scale(1.1);
+}
+
+.tombol-nonaktif{
+    box-shadow: none !important;
+    background-color: #ddd;
+    color: #888;
+    cursor: not-allowed;
+}
+
+/* Tambahkan kelas warna seperti sebelumnya */
+.bg-abu { background: #d8d8d8; }
+.bg-red { background: #C00000; }
+.bg-dark-brown { background: #4A452A; }
+.bg-brown { background: #974807; }
+.bg-dark-blue { background: #376091; }
+.bg-purple { background: #7030A0; }
+.bg-green { background: #00B050; }
